@@ -13,9 +13,9 @@ This repository contains Python practice files focused on basic decision-making 
 - `Question7.py` — ATM withdrawal nested if logic
 - `Question8.py` — Scholarship eligibility nested if logic
 - `Question9.py` — E-commerce delivery qualification nested if logic
-- `Question10.py` — Reserved for additional practice
+- `Question10.py` —SACCO Loan Approval System
 - `Task.py` — Additional custom practice task
 
 ## Usage
 
-Run each file with Python to verify the output and study how `if`, `elif`, and `else` statements work.
+Each file is run with Python to verify the output and study how `if`, `elif`, and `else` statements work.
