@@ -6,23 +6,21 @@
 #withdrawAmount = 5000
 
 #Rules:
-
-#First check if balance is greater than 0.
+# First check if balance is greater than 0.
 # If yes: Check if withdrawal amount is less than or equal to balance.
-# If true, print: "Withdrawal Successful" # Otherwise print: "Insufficient Funds"
+# If true, print: "Withdrawal Successful"
+# Otherwise print: "Insufficient Funds"
 # If balance is 0 or below:
-# Print: "Account Empty" 
+# Print: "Account Empty"
 # Use nested if statements.
 
 balance = 1500
 withdrawAmount = 5000
 
-if balance > 0 :
-    if  withdrawAmount <= balance :
+if balance > 0:
+    if withdrawAmount <= balance:
         print("Withdrawal Successful")
-    elif withdrawAmount > balance :
+    else:
         print("Insufficient Funds")
-if balance <= 0 :
-    print(f"Account Empty")
-
-    
+else:
+    print("Account Empty")

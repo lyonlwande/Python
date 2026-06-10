@@ -7,15 +7,15 @@
 # Grade D or below → Admission Rejected
 # Display the result.
 
-student_grade = "B"
+grade = "B"
 
-if student_grade == "A" :
+if grade == "A":
     print("Direct Admission")
-elif student_grade == "B" :
+elif grade == "B":
     print("Admission Granted")
-elif student_grade == "C" :
+elif grade == "C":
     print("Diploma Recommended")
-elif student_grade == "D" :
+elif grade == "D":
     print("Admission Rejected")
-else :
+else:
     print("Admission status not determined")
